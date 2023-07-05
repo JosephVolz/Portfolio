@@ -55,7 +55,7 @@ export type EducationType = {
   schoolName: string;
   subHeader: string;
   duration: string;
-  desc: string;
+  desc?: string;
   grade?: string;
   descBullets?: string[];
 };
@@ -67,7 +67,7 @@ export type ExperienceType = {
   company: string;
   companyLogo: string;
   date: string;
-  desc: string;
+  desc?: string;
   descBullets?: string[];
 };
 
