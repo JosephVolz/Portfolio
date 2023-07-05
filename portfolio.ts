@@ -27,7 +27,6 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
   linkedin: 'https://www.linkedin.com/in/joseph-volz-80269b280/',
   github: 'https://github.com/JosephVolz',
 };
@@ -343,7 +342,7 @@ export const seoData: SEODataType = {
   description:
     'A passionate Full Stack Web Developer and AI/ML Developer.',
   author: 'Joseph Volz',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
+  image: 'https://avatars.githubusercontent.com/u/137592209?s=400&u=de6343e51aae5b7bb83bcf0fcb8d0e6b4ea31d27&v=4',
   url: 'https://developer-portfolio-1hanzla100.vercel.app',
   keywords: [
     'Joseph',
