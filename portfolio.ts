@@ -62,11 +62,11 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: 'Spring',
-          fontAwesomeClassName: 'logos:spring',
+          fontAwesomeClassName: 'logos:spring-icon',
         },
         {
           skillName: 'PHP',
-          fontAwesomeClassName: 'logos:php',
+          fontAwesomeClassName: 'skill-icons:php-dark',
         },
         {
           skillName: 'Laravel',
@@ -74,11 +74,11 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: 'Symfony',
-          fontAwesomeClassName: 'vscode-icons:file-type-symfony',
+          fontAwesomeClassName: 'logos:symfony',
         },
         {
           skillName: 'Typescript',
-          fontAwesomeClassName: 'vscode-icons:file-type-typescript',
+          fontAwesomeClassName: 'skill-icons:typescript',
         },
         {
           skillName: 'Reactjs',
@@ -98,7 +98,7 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: 'Expressjs',
-          fontAwesomeClassName: 'logos:express',
+          fontAwesomeClassName: 'skill-icons:expressjs-dark',
         },
         {
           skillName: 'Ruby',
@@ -106,7 +106,7 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: 'Ruby on Rails',
-          fontAwesomeClassName: 'vscode-icons:file-type-rails',
+          fontAwesomeClassName: 'logos:rails',
         },
         {
           skillName: 'Go',
@@ -212,15 +212,15 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: 'Pattern Recognition',
-          fontAwesomeClassName: 'logos:pattern',
+          fontAwesomeClassName: 'icon-park:lattice-pattern',
         },
         {
           skillName: 'Expert System',
-          fontAwesomeClassName: 'logos:ganache-icon',
+          fontAwesomeClassName: 'eos-icons:system-ok',
         },
         {
           skillName: 'Natural Language Processing',
-          fontAwesomeClassName: 'logos:ganache-icon',
+          fontAwesomeClassName: 'fa:language',
         },
       ],
     },
