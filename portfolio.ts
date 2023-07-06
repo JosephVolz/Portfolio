@@ -194,7 +194,7 @@ export const skillsSection: SkillsSectionType = {
           '⚡ Experience in developing Face Login System using PyTorch'
         ),
         emoji(
-          '⚡ Building Expert Systems'
+          '⚡ Building Expert Systems with MA'
         ),
         emoji(
           '⚡ Experience of using Tensorflow CNN recognizing objects'
