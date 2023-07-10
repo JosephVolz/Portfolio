@@ -27,7 +27,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  linkedin: 'https://www.linkedin.com/in/joseph-volz-80269b280/',
+  linkedin: 'https://www.linkedin.com/in/josephvolz/',
   github: 'https://github.com/JosephVolz',
 };
 
@@ -190,15 +190,9 @@ export const skillsSection: SkillsSectionType = {
       title: 'AI & ML',
       lottieAnimationFile: '/lottie/skills/ml.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji(
-          '⚡ Experience in developing Face Login System using PyTorch'
-        ),
-        emoji(
-          '⚡ Building Expert Systems with MA'
-        ),
-        emoji(
-          '⚡ Experience of using Tensorflow CNN recognizing objects'
-        ),
+        emoji('⚡ Experience in developing Face Login System using PyTorch'),
+        emoji('⚡ Building Expert Systems with MA'),
+        emoji('⚡ Experience of using Tensorflow CNN recognizing objects'),
         emoji('⚡ Experience of developing speech recognition'),
       ],
       softwareSkills: [
@@ -250,7 +244,7 @@ export const educationInfo: EducationType[] = [
   {
     schoolName: 'Georgia Institute of Technology',
     subHeader: 'Master of Science - MS, Computer Science',
-    duration: 'February 2019 - March 2020',    
+    duration: 'February 2019 - March 2020',
     grade: 'Grade A',
   },
   {
@@ -270,8 +264,8 @@ export const experience: ExperienceType[] = [
     descBullets: [
       'Spearheaded the development of a large-scale software system to meet regulatory standards, resulting in a 25% improvement in customer satisfaction',
       'Upgraded a critical server-side solution with automation and optimized code to enhance security and process speed by 27%',
-      'Developed custom software architectures, designs, and specifications to meet customer design requirements and exceed project deadlines'
-    ]
+      'Developed custom software architectures, designs, and specifications to meet customer design requirements and exceed project deadlines',
+    ],
   },
   {
     role: 'Graduate Teaching Assistant',
@@ -292,8 +286,8 @@ export const experience: ExperienceType[] = [
     descBullets: [
       'Worked on the Google One storefront web team to upgrade client infrastructure for serving surveys to users.',
       'Pushed infrastructure to production and launched 8 surveys to users to aid Google One UXR and storage teams.',
-      'Reduced time to push new surveys to production from 2 weeks to 30 minutes (98.85% reduction) with infrastructure optimizations'
-    ]
+      'Reduced time to push new surveys to production from 2 weeks to 30 minutes (98.85% reduction) with infrastructure optimizations',
+    ],
   },
 ];
 
@@ -305,7 +299,7 @@ export const projects: ProjectType[] = [
   },
   {
     name: 'LastObject',
-    desc: 'LastObject creates the world\'s first reuable alternatives to single-use products. Check out our zero waste store for more sustainable shopping.',
+    desc: "LastObject creates the world's first reuable alternatives to single-use products. Check out our zero waste store for more sustainable shopping.",
     github: 'https://github.com/JosephVolz/e-commerce-react.js',
   },
   {
@@ -339,10 +333,10 @@ export const showContactUs: boolean = true;
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
   title: 'Joseph Volz',
-  description:
-    'A passionate Full Stack Web Developer and AI/ML Developer.',
+  description: 'A passionate Full Stack Web Developer and AI/ML Developer.',
   author: 'Joseph Volz',
-  image: 'https://avatars.githubusercontent.com/u/137592209?s=400&u=de6343e51aae5b7bb83bcf0fcb8d0e6b4ea31d27&v=4',
+  image:
+    'https://avatars.githubusercontent.com/u/137592209?s=400&u=de6343e51aae5b7bb83bcf0fcb8d0e6b4ea31d27&v=4',
   url: 'https://josephvolz.netlify.app/',
   keywords: [
     'Joseph',
