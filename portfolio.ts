@@ -293,9 +293,9 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
+    name: 'Portfolio',
     desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/JosephVolz/developer-portfolio',
+    github: 'https://github.com/JosephVolz/Portfolio',
     link: 'https://josephvolz.netlify.app',
   },
   {
