@@ -62,7 +62,7 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: 'Spring Boot',
-          fontAwesomeClassName: 'logos:springboot-icon',
+          fontAwesomeClassName: 'simple-icons:springboot',
         },
         {
           skillName: 'PHP',
