@@ -223,20 +223,32 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
+    Stack: 'Frontend', //Insert stack or technology you have experience in
+    progressPercentage: '100', //Insert relative proficiency in percentage
+  },
+  {
     Stack: 'Backend/Architecture', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    progressPercentage: '100', //Insert relative proficiency in percentage
   },
   {
-    Stack: 'Engineering',
-    progressPercentage: '80',
+    Stack: 'Amazon Web Service',
+    progressPercentage: '100',
   },
   {
-    Stack: 'Frontend',
-    progressPercentage: '70',
+    Stack: 'Google Cloud Platform',
+    progressPercentage: '90',
   },
   {
-    Stack: 'Programming',
-    progressPercentage: '60',
+    Stack: 'Automated Testing, Mocha, Chai',
+    progressPercentage: '90',
+  },
+  {
+    Stack: 'Debugging',
+    progressPercentage: '90',
+  },
+  {
+    Stack: 'Deep Learning',
+    progressPercentage: '100',
   },
 ];
 
