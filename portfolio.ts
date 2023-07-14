@@ -15,9 +15,9 @@ export const greetings: GreetingsType = {
   name: 'Joseph Volz',
   title: "Hi, I'm Joseph",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Laravel, Django, Next.js, Ruby on Rails, Gin and expertise in high-performance computing, big data, algorithms, databases, and distributed systems.",
+    "I'm passionate Full Stack web developer having an experience of web applications with Spring Boot, Laravel, Django, Node.js, Ruby on Rails, Gin and expertise in high-performance computing, big data, algorithms, databases, and distributed systems.",
   resumeLink:
-    'https://docs.google.com/document/d/1NXOowCTfQzLRviRf-9mHv5Cr71-Asz9EMRIUhYqOWfY/edit?usp=sharing',
+    'https://docs.google.com/document/d/1sNyW-r6Jijxbkhd27jqwV1Kq7dur_ouJtH2QPBQsM2s/edit?usp=sharing',
 };
 
 export const openSource = {
@@ -61,8 +61,8 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'logos:java',
         },
         {
-          skillName: 'Spring',
-          fontAwesomeClassName: 'logos:spring-icon',
+          skillName: 'Spring Boot',
+          fontAwesomeClassName: 'logos:springboot-icon',
         },
         {
           skillName: 'PHP',
@@ -296,21 +296,47 @@ export const projects: ProjectType[] = [
     name: 'developer-portfolio',
     desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
     github: 'https://github.com/JosephVolz/developer-portfolio',
+    link: 'https://josephvolz.netlify.app',
   },
   {
     name: 'LastObject',
     desc: "LastObject creates the world's first reuable alternatives to single-use products. Check out our zero waste store for more sustainable shopping.",
-    github: 'https://github.com/JosephVolz/e-commerce-react.js',
+    link: 'https://github.com/JosephVolz/e-commerce-react.js',
   },
   {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/JosephVolz/django-react-forum',
+    name: 'Drone Blocks',
+    desc: `Well, droneblocks.io was a quite interesting project I have done. The site is about teaching kids copmuter science with Tello drones. Kids can actually develop a program that controls Tello drones using drag and drop editor. My main task was to implement that drag and drop editor. We implemented the editor using Google's blockly library. The job involed customizing the editor for Drones and finally turning the generated code blocks into something that Tello drone can understand. You can check how it works from here.  https://dev.droneblocks.io/ It was quite interesting and challening project. The most challening part was exception handling. And also there were some problems with Blockly library itself, so we had to deal with that as well.`,
+    link: 'https://droneblocks.io/',
   },
   {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/JosephVolz/Django-ecommerce',
+    name: 'Drive Flux',
+    desc: `The website is about lending cars and motorcycles in Malaysia. The basic idea behind the website was "No need to buy a car when you can subscribe it". I have started working on this project in 2018. The client came with this basic idea, and I have made it into reality. The designs were provided by the client, and I did the rest from database design, development, and deployment to AWS. We used Node, React and mongodb as a tech stack and integrated third party services like Stripe for payment and Mailjet for mail integration. I have developed the MVP in 6 months and now People in Malaysia are actively using these services.`,
+    link: 'https://driveflux.com/',
+  },
+  {
+    name: 'Is Luxury',
+    desc: `LUXURY Estate Management, a division of IS LUXURY, is a full-service home management company specializing in the maintenance management of private luxury residences in premier luxury Las Vegas Valley communities. Their goal is to provide exceptional service to our property owners while maintaining a high standard of professionalism and integrity. I have developed the MVP in 5 months and now People are actively using these services.`,
+    link: 'https://www.isluxury.com/',
+  },
+  {
+    name: 'Lyft',
+    desc: `The website is about booking car for personal or business purpose. Any people can book a suitable car and any drivers also apply for any cars. The company just offers cars. Then, drivers and riders are free people. We used Node, React, Next.js and mongodb as a tech stack and integrated third party services like Stripe for payment and Mailjet for mail integration.`,
+    link: 'https://www.lyft.com/',
+  },
+  {
+    name: 'Vrbo',
+    desc: `Vrbo is a global vacation rental community with more than 2 million unique properties that seeks to connect people with the people and places they love. My main task was to develop a adding property. People could not only book a house, but also advertise their properties. I used Node, React and mongodb as a tech stack and integrated third party services like Stripe for payment and Mailjet for mail integration`,
+    link: 'https://www.vrbo.com/',
+  },
+  {
+    name: 'MGM Resorts',
+    desc: `MGM Resorts International (NYSE: MGM) is an S&P 500® global gaming and entertainment company with national and international locations featuring best-in-class hotels and casinos, state-of-the-art meetings and conference spaces, incredible live and theatrical entertainment experiences, and an extensive array of restaurant, nightlife and retail offerings. I developed Casino feature with 8 months using several tech stacks and third party integrations.`,
+    link: 'https://www.mgmresorts.com/',
+  },
+  {
+    name: 'Gopuff Food Delivery',
+    desc: `This website is about booking food delivery. I used Node, Lodash and mongodb as a tech stack and integrated third party services like Stripe for payment integration. I have developed the MVP in 5 months and now People are actively using these services.`,
+    link: 'https://www.gopuff.com/',
   },
 ];
 
