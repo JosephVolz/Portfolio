@@ -254,12 +254,6 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Georgia Institute of Technology',
-    subHeader: 'Master of Science - MS, Computer Science',
-    duration: 'February 2019 - March 2020',
-    grade: 'Grade A',
-  },
-  {
     schoolName: 'Universidade de Aveiro',
     subHeader: 'Bechelor of Technology, Computer Engineering',
     duration: 'May 2013 - December 2017',
@@ -269,36 +263,43 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Senior Software Developer',
-    company: 'Syone',
-    companyLogo: '/img/icons/common/syone.jpg',
-    date: 'Jun 2020 – May 2023',
+    role: 'Full Stack Engineer',
+    company: 'Fortunes Tech',
+    companyLogo: '/img/icons/common/fortunes-tech.jpeg',
+    date: 'May 2023 – Present',
     descBullets: [
-      'Spearheaded the development of a large-scale software system to meet regulatory standards, resulting in a 25% improvement in customer satisfaction',
-      'Upgraded a critical server-side solution with automation and optimized code to enhance security and process speed by 27%',
-      'Developed custom software architectures, designs, and specifications to meet customer design requirements and exceed project deadlines',
+      'Developed new charts and features and improved architecture and performance. Wrote unit  and e2e tests. Used React, D3, Styled Components, and Cypress.',
+      'Handled the complete architecture and development of the UI and connected it to the API. Added unit and e2e tests. Used TypeScript, React, D3, and Chakra UI',
+      'Contributed to UI architecture and moved the existing UI to Chakra UI. Built design system and custom components. Used TypeScript, React, Chakra UI, emotion, and animation.',
+      'Contributed to the material design UI and developed custom components. Added tests. Used TypeScript, React, and Material UI.',
     ],
   },
   {
-    role: 'Graduate Teaching Assistant',
-    company: 'Georgia Institute of Technology',
-    companyLogo: '/img/icons/common/gt.jpg',
-    date: 'Feb 2019 – Mar 2020',
-    desc: 'Introduction to Graduate Algorithms (CS 4510 Computer Vision) taught by Dr.Santosh Vempala',
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    role: 'Senior Full Stack Developer',
+    company: 'Rocksauce',
+    companyLogo: '/img/icons/common/rocksauce.jpeg',
+    date: 'Jun 2020 – Apr 2023',
+    descBullets: [
+      'Implemented the back-end of a Java RESTful API of Knod a review sharing/social networking app (http://staging.knod.com) with unit tests, integration tests, CD, CI with DynamoDB, and MySQL as data storage.',
+      'Deployed on AWS stack with auto-scaling, load-balancing, with continuous integration Jenkins, and CloudWatch monitoring.',
+      'Implemented a search feature with Elasticsearch using customized scoring and sorting functions.',
+      'Implemented the admin interface of the TalkIT app using AngularJS.',
+      'Helped with the development of other apps using Golang, Java, and Spring.'
+    ]
   },
   {
-    role: 'Software Developer Internship',
-    company: 'Google',
-    companyLogo: '/img/icons/common/google.jpg',
-    date: 'Feb 2018 - Nov 2018',
+    role: 'Full Stack Developer',
+    company: 'Growin',
+    companyLogo: '/img/icons/common/growin.jpeg',
+    date: 'Feb 2018 - Jun 2020',
     descBullets: [
-      'Worked on the Google One storefront web team to upgrade client infrastructure for serving surveys to users.',
-      'Pushed infrastructure to production and launched 8 surveys to users to aid Google One UXR and storage teams.',
-      'Reduced time to push new surveys to production from 2 weeks to 30 minutes (98.85% reduction) with infrastructure optimizations',
+      'Specialized in middle-tier applications for the web—implementing patterns like MVC, ORM, and OOP with the goal of making applications more robust, scalable, and easier to maintain.',
+      'Contributed to open-source PHP projects: CakePHP and Zend Framework.',
+      'Developed multiple web applications using the Zend Framework and CakePHP frameworks.',
+      'Applications include community-lead, lead-generation, affiliate systems, CMS/CRM, and internal employee dashboards which helped synergize various company projects.',
+      'Designed and was responsible for maintaining sites generating $1 million+ in gross revenue yearly and 200,000 monthly page views.',
+      'Designed and optimized large-scale MySQL databases using advanced techniques like stored procedures, triggers, and complex queries.',
+      'Built internal SEO tools necessary to track and exploit a highly competitive landscape.',
     ],
   },
 ];
