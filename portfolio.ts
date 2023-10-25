@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "I'm passionate Full Stack web developer having an experience of web applications with Spring Boot, Laravel, Django, Node.js, Ruby on Rails, Gin and expertise in high-performance computing, big data, algorithms, databases, and distributed systems.",
   resumeLink:
-    'https://drive.google.com/file/d/1x5x3xnhlIFatpfP_UTrApgqKtGtSi573/view',
+    'https://drive.google.com/file/d/1UexujsnLLMAYrVy1XFNx2Nbf84WxZ0i4/view',
 };
 
 export const openSource = {
